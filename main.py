@@ -8,9 +8,9 @@ def start():
     try:
         vk_auth = vk_api.VkApi(token="your token")
         vk = vk_auth.get_api()
-        print("Авторизация прошла успешно")
+        print("зашел")
     except:
-        print("Ошибка авторизации")
+        print("токен поменяй")
 
 
     num = 1000
