@@ -1,7 +1,6 @@
 import vk_api
 import os,time
 from time import sleep
-import datetime
 
 
 def start():
