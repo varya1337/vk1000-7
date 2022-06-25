@@ -24,8 +24,7 @@ def start():
             print("ворк")
         except:
             print("сука")
-        break
-    
+            break
     time.sleep(35)
 
     start()
