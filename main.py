@@ -7,9 +7,9 @@ def start():
     try:
         vk_auth = vk_api.VkApi(token="your token")
         vk = vk_auth.get_api()
-        print("зашел")
+        print("good")
     except:
-        print("токен поменяй")
+        print("give me a new token or wait a 5 min")
 
 
     num = 1000
@@ -20,9 +20,9 @@ def start():
             
             vk.status.set(text=f"{num} - 7")
             num-=7
-            print("ворк")
+            print("work")
         except:
-            print("сука")
+            print("nevermind his didnt work")
             break
     time.sleep(35)
 
